@@ -12,3 +12,11 @@ public class Iterativo {
         System.out.println(suma);
     }
 }
+
+/*
+Cambios en el programa:
+
+System.out.println(suma);
+
+> Esto fue lo unico que se anadio al programa, lo demas es lo mismo.
+*/
