@@ -15,7 +15,7 @@ public class Recursivo {
 }
 
 /*
-Programa original:
+Cambios en el programa:
 
 algoritmo() {
     int n;
@@ -28,7 +28,7 @@ algoritmo() {
     n -= 1;
 }
 
-> Tuvimos que cambiar tood el codigo. El problema del original es que para empezar,
+> Tuvimos que cambiar todo el codigo. El problema del original es que para empezar,
 cuando se llegua a la linea numero 26 (la que llama al metodo) el programa entra
 en un bucle infinito. El segundo problema es que, aunque el programa ejecutara
 correctamente, no iba a funcionar porque el valor de las variables se iba a estar
