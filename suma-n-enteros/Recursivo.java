@@ -13,3 +13,25 @@ public class Recursivo {
         }
     }
 }
+
+/*
+Programa original:
+
+algoritmo() {
+    int n;
+    int i = 1;
+    i++;
+    int suma += i;
+    if (n != 0) {
+        algoritmo();
+    }
+    n -= 1;
+}
+
+> Tuvimos que cambiar tood el codigo. El problema del original es que para empezar,
+cuando se llegua a la linea numero 26 (la que llama al metodo) el programa entra
+en un bucle infinito. El segundo problema es que, aunque el programa ejecutara
+correctamente, no iba a funcionar porque el valor de las variables se iba a estar
+reiniciando en cada iteracion.
+
+*/
