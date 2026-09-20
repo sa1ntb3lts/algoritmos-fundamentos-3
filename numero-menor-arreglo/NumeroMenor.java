@@ -20,7 +20,7 @@ public class NumeroMenor {
 }
 
 /*
-Lo unico que se modifico en el codigo fueron dos partes:
+Cambios en el programa:
 
 1.
 Codigo mejorado: int[] A = {2, 5, 6, 1};
