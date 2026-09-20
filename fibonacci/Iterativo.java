@@ -7,8 +7,10 @@ public class Iterativo {
         int sumatoria = 0;
         int n = 8;
 
+        // La variable 'k' empieza en 1 para que no haga una iteracion
+        // extra.
         for(int k = 1; k <= n; k++) {
-            sumatoria += i;
+            sumatoria = i + j;
             i = j;
             j = sumatoria;
         }
