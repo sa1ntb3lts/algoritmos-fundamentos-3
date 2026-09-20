@@ -5,7 +5,7 @@ public class Recursivo {
         System.out.println(resultado);
     }
 
-    public static long algoritmo(long n) {
+    public static long algoritmo(int n) {
         if (n == 0) {
             return 0;
         } else {
