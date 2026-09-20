@@ -2,16 +2,16 @@ package fibonacci;
 
 public class Recursivo {
     public static void main(String[] args) {
-        long resultado = fibonnaci(8);
+        long resultado = fibonacci(8);
 
         System.out.println(resultado);
     }
 
-    public static long fibonnaci(int n) {
+    public static long fibonacci(int n) {
         if (n == 0 || n == 1) {
             return n;
         } else {
-            return fibonnaci(n - 1) + fibonnaci(n - 2);
+            return fibonacci(n - 1) + fibonacci(n - 2);
         }
     }
 }
