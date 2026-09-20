@@ -20,7 +20,7 @@ Cambios en el programa:
 algoritmo() {
     int n;
     int i = 1;
-    i++;
+    i++;                <---- Codigo original.
     int suma += i;
     if (n != 0) {
         algoritmo();
