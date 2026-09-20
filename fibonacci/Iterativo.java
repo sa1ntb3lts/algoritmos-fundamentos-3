@@ -7,7 +7,6 @@ public class Iterativo {
         int sumatoria = 0;
         int n = 8;
 
-        // La variable 'k' empieza en 2 para que no haga iteraciones extra.
         for(int k = 2; k <= n; k++) {
             sumatoria = i + j;
             i = j;
@@ -30,7 +29,8 @@ long fibonacci(int n) {
     }
 }
 
-> Primero anadimos la variable n, luego modificamos el valor de k (por la razon que se menciona
-en el comentario), y cambiamos la logica dentro del for, porque con lo que teniamos el programa
-solamente daba 1 como output, o sea que no estaba avanzando.
+> Primero anadimos la variable n, luego modificamos el valor de k para que empezara
+en 2, porque si empezaba desde 0 o 1, iba a hacer iteraciones extra e iba a afectar
+al total de la sumatoria. Luego cambiamos la logica dentro del for, porque con lo que 
+teniamos el programa solamente daba 1 como output, o sea que no estaba avanzando.
 */
