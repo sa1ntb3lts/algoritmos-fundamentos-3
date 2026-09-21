@@ -1,10 +1,13 @@
 public class Recursivo {
     public static void main(String[] args) {
-        long resultado = algoritmo(1);
+        long resultado = algoritmo(5);
         
         System.out.println(resultado);
     }
 
+    // Lo que se hace aqui es basicamente, que el
+    // input que nosotros le dimos va a ir disminuyendo
+    // hasta llegar al caso base, siendo 0 en este caso.
     public static long algoritmo(int n) {
         if (n == 0) {
             return 0;
