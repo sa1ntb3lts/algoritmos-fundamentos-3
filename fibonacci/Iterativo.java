@@ -7,6 +7,10 @@ public class Iterativo {
         int sumatoria = 0;
         int n = 8;
 
+        // Primero se suma los dos valores iniciales,
+        // 'i' toma el valor de 'j', y 'j' toma el valor
+        // de la suma de si mismo con 'i'. 'k' inicia
+        // desde 2 para no hacer iteraciones extra.
         for(int k = 2; k <= n; k++) {
             sumatoria = i + j;
             i = j;
