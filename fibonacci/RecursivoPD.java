@@ -6,7 +6,9 @@ public class RecursivoPD {
     public static void main(String[] args) {
         long[] fib = new long[9];
         // Se rellena el arreglo con valores de -1 porque
-        // se va a necesitar para validaciones.
+        // se va a necesitar para validaciones. No puede estar
+        // lleno de 0 por la misma razon por la cual la validacion
+        // de la linea 29 no puede ser 0.
         Arrays.fill(fib, -1);
 
         System.out.println(fibonacci(8, fib));
