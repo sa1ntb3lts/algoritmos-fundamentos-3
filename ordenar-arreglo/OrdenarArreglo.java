@@ -8,8 +8,16 @@ public class OrdenarArreglo {
         System.out.println("Arreglo antes del ordenamiento: ");
         System.out.println(Arrays.toString(A));
 
+        // Se le resta 2 al arreglo para que la variable
+        // 'j' no se sobrepase el numero de elementos que
+        // pueden haber en el arreglo. 
         for(int i = 0; i <= A.length - 2; i++) {
+            // Aqui se le resta 'i' para no tomar en cuenta lo que
+            // ya se ordeno previamente.
             for(int j = 0; j <= A.length - 2 - i; j++) { 
+                // Si el valor de la posicion en la que se encuentra 'j' es 
+                // mayor que el valor de la posicion siguiente, se realiza el 
+                // intercambio.
                 if (A[j] > A[j + 1]) {
                     aux = A[j];
                     A[j] = A[j + 1];
