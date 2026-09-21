@@ -7,6 +7,9 @@ public class Recursivo {
         System.out.println(resultado);
     }
 
+    // Aqui esta pasando lo mismo que en cualquier
+    // algoritmo recursivo, n disminuye aplicando la
+    // formula de fibonacci, hasta llegar al caso base.
     public static long fibonacci(int n) {
         if (n == 0 || n == 1) {
             return n;
