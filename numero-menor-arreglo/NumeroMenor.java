@@ -1,8 +1,15 @@
 public class NumeroMenor {
     public static void main(String[] args) {
-        int[] A = {2, 5, 6, 1};
+        // ValorMinimo empieza en 0 para tomar en
+        // cuenta TODOS los valores del arreglo.
+        int[] A = {1, 5, 6, 3};
         int valorMinimo = A[0];
 
+        // Recorre el arreglo, y checa si el valor
+        // en la posicion de 'i' es menor al valor que
+        // contiene valorMinimo al momento de la iteracion.
+        // En caso de que se cumpla, se le asigna el valor
+        // de la posicion de 'i' a valorMinimo.
         for(int i = 1; i < A.length; i++) {
             if (A[i] < valorMinimo) {
                 valorMinimo = A[i];
